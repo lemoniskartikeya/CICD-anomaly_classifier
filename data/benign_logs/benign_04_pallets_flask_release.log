@@ -1,0 +1,14 @@
+2026-04-27T18:35:00Z [INFO] Runner: macos-13, Job: release
+2026-04-27T18:35:08Z [INFO] Checking out pallets/flask@a0000042 (tag: v1.11.9)
+2026-04-27T18:35:12Z [INFO] Set up Python 3.11
+2026-04-27T18:35:20Z [INFO] pip install build twine
+2026-04-27T18:35:23Z [INFO] python -m build
+2026-04-27T18:35:27Z [INFO] Successfully built dist/flask-1.11.9.tar.gz
+2026-04-27T18:35:32Z [INFO] twine check dist/*
+2026-04-27T18:35:37Z [INFO] Checking dist/app-1.11.9.tar.gz: PASSED
+2026-04-27T18:35:43Z [INFO] twine upload dist/* --skip-existing
+2026-04-27T18:35:44Z [INFO] Uploading distributions to https://upload.pypi.org/legacy/
+2026-04-27T18:35:47Z [INFO] Uploading flask-1.11.9.tar.gz
+2026-04-27T18:35:52Z [INFO] View at: https://pypi.org/project/flask/1.11.9/
+2026-04-27T18:35:58Z [INFO] gh release create v1.11.9 --generate-notes
+2026-04-27T18:36:05Z [INFO] Release v1.11.9 created successfully

@@ -1,0 +1,28 @@
+2026-08-15T08:09:00Z [INFO] Runner: ubuntu-latest, Job: test (Python 3.12)
+2026-08-15T08:09:05Z [INFO] Checking out psf/requests@a0000059
+2026-08-15T08:09:09Z [INFO] Set up Python 3.12
+2026-08-15T08:09:14Z [INFO] Cache hit for pip packages (key: pip-3.12-a00000)
+2026-08-15T08:09:17Z [INFO] pip install -r requirements.txt
+2026-08-15T08:09:25Z [INFO] Collecting flask==3.0.3
+2026-08-15T08:09:33Z [INFO] Collecting Werkzeug>=3.0.0
+2026-08-15T08:09:40Z [INFO] Collecting click>=8.1.3
+2026-08-15T08:09:44Z [INFO] Collecting itsdangerous>=2.1.2
+2026-08-15T08:09:51Z [INFO] Successfully installed flask-3.0.3 Werkzeug-3.0.3
+2026-08-15T08:09:54Z [INFO] pip install pytest pytest-cov
+2026-08-15T08:09:58Z [INFO] Successfully installed pytest-8.1.1 pytest-cov-5.0.0
+2026-08-15T08:10:04Z [INFO] Running flake8 .
+2026-08-15T08:10:08Z [INFO] flake8: All checks passed.
+2026-08-15T08:10:12Z [INFO] pytest tests/ -v --cov=src --cov-report=xml
+2026-08-15T08:10:17Z [INFO] collected 30 items
+2026-08-15T08:10:23Z [INFO] tests/test_core.py::test_case_1 PASSED
+2026-08-15T08:10:29Z [INFO] tests/test_core.py::test_case_2 PASSED
+2026-08-15T08:10:31Z [INFO] tests/test_core.py::test_case_3 PASSED
+2026-08-15T08:10:37Z [INFO] tests/test_core.py::test_case_4 PASSED
+2026-08-15T08:10:40Z [INFO] tests/test_core.py::test_case_5 PASSED
+2026-08-15T08:10:45Z [INFO] tests/test_core.py::test_case_6 PASSED
+2026-08-15T08:10:48Z [INFO] ... (24 more tests) ...
+2026-08-15T08:10:56Z [INFO] 30 passed in 28s
+2026-08-15T08:11:03Z [INFO] Coverage: 84%
+2026-08-15T08:11:08Z [INFO] Uploading coverage report to Codecov
+2026-08-15T08:11:14Z [INFO] Coverage uploaded successfully
+2026-08-15T08:11:22Z [INFO] Job finished with status: success

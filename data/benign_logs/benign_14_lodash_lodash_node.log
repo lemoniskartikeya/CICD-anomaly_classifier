@@ -1,0 +1,17 @@
+2026-08-25T23:33:00Z [INFO] Runner: ubuntu-20.04, Job: build (Node 16.x)
+2026-08-25T23:33:08Z [INFO] Checking out lodash/lodash@a0000050
+2026-08-25T23:33:13Z [INFO] Set up Node.js 16.x
+2026-08-25T23:33:19Z [INFO] Cache hit for npm packages
+2026-08-25T23:33:22Z [INFO] npm ci
+2026-08-25T23:33:28Z [INFO] added 702 packages in 25s
+2026-08-25T23:33:33Z [INFO] npm run lint
+2026-08-25T23:33:41Z [INFO] eslint src/ --ext .js,.ts
+2026-08-25T23:33:45Z [INFO] ESLint: no warnings
+2026-08-25T23:33:51Z [INFO] npm run build
+2026-08-25T23:33:55Z [INFO] webpack compiled successfully in 5040ms
+2026-08-25T23:33:58Z [INFO] npm test
+2026-08-25T23:33:59Z [INFO] PASS src/__tests__/core.test.js
+2026-08-25T23:34:04Z [INFO] PASS src/__tests__/utils.test.js
+2026-08-25T23:34:12Z [INFO] Tests: 84 passed, 0 failed, 84 total
+2026-08-25T23:34:15Z [INFO] Snapshot summary: 2 obsolete snapshots
+2026-08-25T23:34:20Z [INFO] Done in 24s

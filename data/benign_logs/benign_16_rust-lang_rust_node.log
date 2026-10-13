@@ -1,0 +1,17 @@
+2026-03-18T06:45:00Z [INFO] Runner: macos-13, Job: build (Node 18.x)
+2026-03-18T06:45:05Z [INFO] Checking out rust-lang/rust@a0000096
+2026-03-18T06:45:09Z [INFO] Set up Node.js 18.x
+2026-03-18T06:45:12Z [INFO] Cache hit for npm packages
+2026-03-18T06:45:13Z [INFO] npm ci
+2026-03-18T06:45:19Z [INFO] added 779 packages in 26s
+2026-03-18T06:45:21Z [INFO] npm run lint
+2026-03-18T06:45:26Z [INFO] eslint src/ --ext .js,.ts
+2026-03-18T06:45:27Z [INFO] ESLint: no warnings
+2026-03-18T06:45:35Z [INFO] npm run build
+2026-03-18T06:45:43Z [INFO] webpack compiled successfully in 4052ms
+2026-03-18T06:45:50Z [INFO] npm test
+2026-03-18T06:45:53Z [INFO] PASS src/__tests__/core.test.js
+2026-03-18T06:45:59Z [INFO] PASS src/__tests__/utils.test.js
+2026-03-18T06:46:00Z [INFO] Tests: 51 passed, 1 failed, 52 total
+2026-03-18T06:46:04Z [INFO] Snapshot summary: 2 obsolete snapshots
+2026-03-18T06:46:07Z [INFO] Done in 54s

@@ -1,0 +1,14 @@
+2026-06-18T00:58:00Z [INFO] Runner: ubuntu-20.04, Job: release
+2026-06-18T00:58:08Z [INFO] Checking out torvalds/linux@a00000ad (tag: v3.3.5)
+2026-06-18T00:58:11Z [INFO] Set up Python 3.11
+2026-06-18T00:58:15Z [INFO] pip install build twine
+2026-06-18T00:58:20Z [INFO] python -m build
+2026-06-18T00:58:22Z [INFO] Successfully built dist/linux-3.3.5.tar.gz
+2026-06-18T00:58:26Z [INFO] twine check dist/*
+2026-06-18T00:58:33Z [INFO] Checking dist/app-3.3.5.tar.gz: PASSED
+2026-06-18T00:58:36Z [INFO] twine upload dist/* --skip-existing
+2026-06-18T00:58:41Z [INFO] Uploading distributions to https://upload.pypi.org/legacy/
+2026-06-18T00:58:43Z [INFO] Uploading linux-3.3.5.tar.gz
+2026-06-18T00:58:45Z [INFO] View at: https://pypi.org/project/linux/3.3.5/
+2026-06-18T00:58:48Z [INFO] gh release create v3.3.5 --generate-notes
+2026-06-18T00:58:53Z [INFO] Release v3.3.5 created successfully

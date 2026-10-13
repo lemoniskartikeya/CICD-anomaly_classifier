@@ -1,0 +1,17 @@
+2026-07-26T14:34:00Z [INFO] Runner: ubuntu-latest, Job: build (Node 20.x)
+2026-07-26T14:34:03Z [INFO] Checking out psf/requests@a00000a8
+2026-07-26T14:34:06Z [INFO] Set up Node.js 20.x
+2026-07-26T14:34:13Z [INFO] Cache hit for npm packages
+2026-07-26T14:34:14Z [INFO] npm ci
+2026-07-26T14:34:19Z [INFO] added 508 packages in 5s
+2026-07-26T14:34:23Z [INFO] npm run lint
+2026-07-26T14:34:25Z [INFO] eslint src/ --ext .js,.ts
+2026-07-26T14:34:28Z [INFO] ESLint: no warnings
+2026-07-26T14:34:29Z [INFO] npm run build
+2026-07-26T14:34:31Z [INFO] webpack compiled successfully in 4913ms
+2026-07-26T14:34:37Z [INFO] npm test
+2026-07-26T14:34:41Z [INFO] PASS src/__tests__/core.test.js
+2026-07-26T14:34:48Z [INFO] PASS src/__tests__/utils.test.js
+2026-07-26T14:34:52Z [INFO] Tests: 40 passed, 0 failed, 40 total
+2026-07-26T14:34:59Z [INFO] Snapshot summary: 0 obsolete snapshots
+2026-07-26T14:35:01Z [INFO] Done in 55s

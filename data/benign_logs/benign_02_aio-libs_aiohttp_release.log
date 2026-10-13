@@ -1,0 +1,14 @@
+2026-01-27T05:18:00Z [INFO] Runner: windows-2022, Job: release
+2026-01-27T05:18:02Z [INFO] Checking out aio-libs/aiohttp@a0000060 (tag: v3.11.4)
+2026-01-27T05:18:05Z [INFO] Set up Python 3.11
+2026-01-27T05:18:12Z [INFO] pip install build twine
+2026-01-27T05:18:14Z [INFO] python -m build
+2026-01-27T05:18:19Z [INFO] Successfully built dist/aiohttp-3.11.4.tar.gz
+2026-01-27T05:18:21Z [INFO] twine check dist/*
+2026-01-27T05:18:24Z [INFO] Checking dist/app-3.11.4.tar.gz: PASSED
+2026-01-27T05:18:30Z [INFO] twine upload dist/* --skip-existing
+2026-01-27T05:18:33Z [INFO] Uploading distributions to https://upload.pypi.org/legacy/
+2026-01-27T05:18:41Z [INFO] Uploading aiohttp-3.11.4.tar.gz
+2026-01-27T05:18:46Z [INFO] View at: https://pypi.org/project/aiohttp/3.11.4/
+2026-01-27T05:18:54Z [INFO] gh release create v3.11.4 --generate-notes
+2026-01-27T05:18:57Z [INFO] Release v3.11.4 created successfully

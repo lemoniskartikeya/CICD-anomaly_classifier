@@ -1,0 +1,17 @@
+2026-06-25T04:54:00Z [INFO] Runner: macos-13, Job: build (Node 20.x)
+2026-06-25T04:54:02Z [INFO] Checking out numpy/numpy@a0000043
+2026-06-25T04:54:04Z [INFO] Set up Node.js 20.x
+2026-06-25T04:54:11Z [INFO] Cache hit for npm packages
+2026-06-25T04:54:18Z [INFO] npm ci
+2026-06-25T04:54:25Z [INFO] added 398 packages in 19s
+2026-06-25T04:54:30Z [INFO] npm run lint
+2026-06-25T04:54:36Z [INFO] eslint src/ --ext .js,.ts
+2026-06-25T04:54:40Z [INFO] ESLint: no warnings
+2026-06-25T04:54:46Z [INFO] npm run build
+2026-06-25T04:54:54Z [INFO] webpack compiled successfully in 3962ms
+2026-06-25T04:54:56Z [INFO] npm test
+2026-06-25T04:55:01Z [INFO] PASS src/__tests__/core.test.js
+2026-06-25T04:55:03Z [INFO] PASS src/__tests__/utils.test.js
+2026-06-25T04:55:11Z [INFO] Tests: 47 passed, 0 failed, 47 total
+2026-06-25T04:55:13Z [INFO] Snapshot summary: 4 obsolete snapshots
+2026-06-25T04:55:18Z [INFO] Done in 23s

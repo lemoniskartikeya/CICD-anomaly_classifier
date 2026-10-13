@@ -1,0 +1,28 @@
+2026-02-13T06:55:00Z [INFO] Runner: ubuntu-20.04, Job: test (Python 3.11)
+2026-02-13T06:55:05Z [INFO] Checking out golang/go@a0000052
+2026-02-13T06:55:08Z [INFO] Set up Python 3.11
+2026-02-13T06:55:15Z [INFO] Cache hit for pip packages (key: pip-3.11-a00000)
+2026-02-13T06:55:22Z [INFO] pip install -r requirements.txt
+2026-02-13T06:55:28Z [INFO] Collecting flask==3.0.3
+2026-02-13T06:55:30Z [INFO] Collecting Werkzeug>=3.0.0
+2026-02-13T06:55:31Z [INFO] Collecting click>=8.1.3
+2026-02-13T06:55:38Z [INFO] Collecting itsdangerous>=2.1.2
+2026-02-13T06:55:46Z [INFO] Successfully installed flask-3.0.3 Werkzeug-3.0.3
+2026-02-13T06:55:50Z [INFO] pip install pytest pytest-cov
+2026-02-13T06:55:53Z [INFO] Successfully installed pytest-8.1.1 pytest-cov-5.0.0
+2026-02-13T06:56:00Z [INFO] Running black --check .
+2026-02-13T06:56:08Z [INFO] black --check: All checks passed.
+2026-02-13T06:56:14Z [INFO] pytest tests/ -v --cov=src --cov-report=xml
+2026-02-13T06:56:20Z [INFO] collected 108 items
+2026-02-13T06:56:23Z [INFO] tests/test_core.py::test_case_1 PASSED
+2026-02-13T06:56:28Z [INFO] tests/test_core.py::test_case_2 PASSED
+2026-02-13T06:56:30Z [INFO] tests/test_core.py::test_case_3 PASSED
+2026-02-13T06:56:31Z [INFO] tests/test_core.py::test_case_4 PASSED
+2026-02-13T06:56:34Z [INFO] tests/test_core.py::test_case_5 PASSED
+2026-02-13T06:56:37Z [INFO] tests/test_core.py::test_case_6 PASSED
+2026-02-13T06:56:44Z [INFO] ... (102 more tests) ...
+2026-02-13T06:56:51Z [INFO] 108 passed in 19s
+2026-02-13T06:56:58Z [INFO] Coverage: 93%
+2026-02-13T06:57:04Z [INFO] Uploading coverage report to Codecov
+2026-02-13T06:57:12Z [INFO] Coverage uploaded successfully
+2026-02-13T06:57:16Z [INFO] Job finished with status: success

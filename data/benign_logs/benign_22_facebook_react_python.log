@@ -1,0 +1,28 @@
+2026-03-06T09:35:00Z [INFO] Runner: macos-13, Job: test (Python 3.12)
+2026-03-06T09:35:08Z [INFO] Checking out facebook/react@a0000002
+2026-03-06T09:35:13Z [INFO] Set up Python 3.12
+2026-03-06T09:35:17Z [INFO] Cache hit for pip packages (key: pip-3.12-a00000)
+2026-03-06T09:35:25Z [INFO] pip install -r requirements.txt
+2026-03-06T09:35:32Z [INFO] Collecting flask==3.0.3
+2026-03-06T09:35:39Z [INFO] Collecting Werkzeug>=3.0.0
+2026-03-06T09:35:45Z [INFO] Collecting click>=8.1.3
+2026-03-06T09:35:48Z [INFO] Collecting itsdangerous>=2.1.2
+2026-03-06T09:35:54Z [INFO] Successfully installed flask-3.0.3 Werkzeug-3.0.3
+2026-03-06T09:36:01Z [INFO] pip install pytest pytest-cov
+2026-03-06T09:36:06Z [INFO] Successfully installed pytest-8.1.1 pytest-cov-5.0.0
+2026-03-06T09:36:09Z [INFO] Running mypy .
+2026-03-06T09:36:16Z [INFO] mypy: All checks passed.
+2026-03-06T09:36:22Z [INFO] pytest tests/ -v --cov=src --cov-report=xml
+2026-03-06T09:36:25Z [INFO] collected 126 items
+2026-03-06T09:36:26Z [INFO] tests/test_core.py::test_case_1 PASSED
+2026-03-06T09:36:29Z [INFO] tests/test_core.py::test_case_2 PASSED
+2026-03-06T09:36:31Z [INFO] tests/test_core.py::test_case_3 PASSED
+2026-03-06T09:36:34Z [INFO] tests/test_core.py::test_case_4 PASSED
+2026-03-06T09:36:36Z [INFO] tests/test_core.py::test_case_5 PASSED
+2026-03-06T09:36:38Z [INFO] tests/test_core.py::test_case_6 PASSED
+2026-03-06T09:36:40Z [INFO] ... (120 more tests) ...
+2026-03-06T09:36:44Z [INFO] 126 passed in 15s
+2026-03-06T09:36:51Z [INFO] Coverage: 72%
+2026-03-06T09:36:57Z [INFO] Uploading coverage report to Codecov
+2026-03-06T09:37:00Z [INFO] Coverage uploaded successfully
+2026-03-06T09:37:01Z [INFO] Job finished with status: success

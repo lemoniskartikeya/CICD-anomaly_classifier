@@ -1,0 +1,17 @@
+2026-07-27T16:50:00Z [INFO] Runner: ubuntu-22.04, Job: build (Node 18.x)
+2026-07-27T16:50:06Z [INFO] Checking out python/cpython@a0000074
+2026-07-27T16:50:09Z [INFO] Set up Node.js 18.x
+2026-07-27T16:50:10Z [INFO] Cache hit for npm packages
+2026-07-27T16:50:13Z [INFO] npm ci
+2026-07-27T16:50:21Z [INFO] added 720 packages in 7s
+2026-07-27T16:50:25Z [INFO] npm run lint
+2026-07-27T16:50:27Z [INFO] eslint src/ --ext .js,.ts
+2026-07-27T16:50:29Z [INFO] ESLint: no warnings
+2026-07-27T16:50:33Z [INFO] npm run build
+2026-07-27T16:50:38Z [INFO] webpack compiled successfully in 7155ms
+2026-07-27T16:50:39Z [INFO] npm test
+2026-07-27T16:50:42Z [INFO] PASS src/__tests__/core.test.js
+2026-07-27T16:50:48Z [INFO] PASS src/__tests__/utils.test.js
+2026-07-27T16:50:51Z [INFO] Tests: 96 passed, 1 failed, 97 total
+2026-07-27T16:50:58Z [INFO] Snapshot summary: 4 obsolete snapshots
+2026-07-27T16:51:01Z [INFO] Done in 33s

@@ -1,0 +1,18 @@
+2026-03-01T14:31:00Z [INFO] Runner: ubuntu-20.04, Job: docker-publish
+2026-03-01T14:31:04Z [INFO] Checking out rust-lang/rust@a0000020
+2026-03-01T14:31:11Z [INFO] Set up Docker Buildx
+2026-03-01T14:31:17Z [INFO] Login to GitHub Container Registry (ghcr.io)
+2026-03-01T14:31:22Z [INFO] Login Succeeded
+2026-03-01T14:31:24Z [INFO] docker build --tag ghcr.io/rust-lang/rust:v2.2.2 .
+2026-03-01T14:31:29Z [INFO] Step 1/8 : FROM python:3.11-slim
+2026-03-01T14:31:32Z [INFO] Step 2/8 : WORKDIR /app
+2026-03-01T14:31:39Z [INFO] Step 3/8 : COPY requirements.txt .
+2026-03-01T14:31:41Z [INFO] Step 4/8 : RUN pip install -r requirements.txt
+2026-03-01T14:31:43Z [INFO] Step 5/8 : COPY . .
+2026-03-01T14:31:46Z [INFO] Step 6/8 : EXPOSE 8000
+2026-03-01T14:31:49Z [INFO] Step 7/8 : CMD ["gunicorn", "app:app"]
+2026-03-01T14:31:52Z [INFO] Step 8/8 : Successfully built a0000045
+2026-03-01T14:31:59Z [INFO] docker push ghcr.io/rust-lang/rust:v2.2.2
+2026-03-01T14:32:02Z [INFO] The push refers to repository [ghcr.io/rust-lang/rust]
+2026-03-01T14:32:03Z [INFO] Image pushed successfully
+2026-03-01T14:32:07Z [INFO] Job finished with status: success

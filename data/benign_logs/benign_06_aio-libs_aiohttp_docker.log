@@ -1,0 +1,18 @@
+2026-03-16T21:46:00Z [INFO] Runner: windows-2022, Job: docker-publish
+2026-03-16T21:46:01Z [INFO] Checking out aio-libs/aiohttp@a0000088
+2026-03-16T21:46:04Z [INFO] Set up Docker Buildx
+2026-03-16T21:46:12Z [INFO] Login to GitHub Container Registry (ghcr.io)
+2026-03-16T21:46:13Z [INFO] Login Succeeded
+2026-03-16T21:46:20Z [INFO] docker build --tag ghcr.io/aio-libs/aiohttp:v2.6.1 .
+2026-03-16T21:46:28Z [INFO] Step 1/8 : FROM python:3.11-slim
+2026-03-16T21:46:34Z [INFO] Step 2/8 : WORKDIR /app
+2026-03-16T21:46:35Z [INFO] Step 3/8 : COPY requirements.txt .
+2026-03-16T21:46:43Z [INFO] Step 4/8 : RUN pip install -r requirements.txt
+2026-03-16T21:46:46Z [INFO] Step 5/8 : COPY . .
+2026-03-16T21:46:53Z [INFO] Step 6/8 : EXPOSE 8000
+2026-03-16T21:47:01Z [INFO] Step 7/8 : CMD ["gunicorn", "app:app"]
+2026-03-16T21:47:06Z [INFO] Step 8/8 : Successfully built a0000029
+2026-03-16T21:47:09Z [INFO] docker push ghcr.io/aio-libs/aiohttp:v2.6.1
+2026-03-16T21:47:16Z [INFO] The push refers to repository [ghcr.io/aio-libs/aiohttp]
+2026-03-16T21:47:21Z [INFO] Image pushed successfully
+2026-03-16T21:47:27Z [INFO] Job finished with status: success
