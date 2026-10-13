@@ -1,0 +1,14 @@
+2026-02-15T04:34:00Z [INFO] Runner: ubuntu-22.04, Job: release
+2026-02-15T04:34:02Z [INFO] Checking out rust-lang/rust@a000000c (tag: v5.6.1)
+2026-02-15T04:34:10Z [INFO] Set up Python 3.11
+2026-02-15T04:34:12Z [INFO] pip install build twine
+2026-02-15T04:34:18Z [INFO] python -m build
+2026-02-15T04:34:26Z [INFO] Successfully built dist/rust-5.6.1.tar.gz
+2026-02-15T04:34:31Z [INFO] twine check dist/*
+2026-02-15T04:34:35Z [INFO] Checking dist/app-5.6.1.tar.gz: PASSED
+2026-02-15T04:34:38Z [INFO] twine upload dist/* --skip-existing
+2026-02-15T04:34:44Z [INFO] Uploading distributions to https://upload.pypi.org/legacy/
+2026-02-15T04:34:46Z [INFO] Uploading rust-5.6.1.tar.gz
+2026-02-15T04:34:51Z [INFO] View at: https://pypi.org/project/rust/5.6.1/
+2026-02-15T04:34:56Z [INFO] gh release create v5.6.1 --generate-notes
+2026-02-15T04:35:03Z [INFO] Release v5.6.1 created successfully

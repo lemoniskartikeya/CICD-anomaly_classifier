@@ -1,0 +1,14 @@
+2026-02-21T04:19:00Z [INFO] Runner: ubuntu-latest, Job: release
+2026-02-21T04:19:02Z [INFO] Checking out django/django@a00000b3 (tag: v5.8.7)
+2026-02-21T04:19:09Z [INFO] Set up Python 3.11
+2026-02-21T04:19:16Z [INFO] pip install build twine
+2026-02-21T04:19:18Z [INFO] python -m build
+2026-02-21T04:19:25Z [INFO] Successfully built dist/django-5.8.7.tar.gz
+2026-02-21T04:19:27Z [INFO] twine check dist/*
+2026-02-21T04:19:29Z [INFO] Checking dist/app-5.8.7.tar.gz: PASSED
+2026-02-21T04:19:37Z [INFO] twine upload dist/* --skip-existing
+2026-02-21T04:19:44Z [INFO] Uploading distributions to https://upload.pypi.org/legacy/
+2026-02-21T04:19:45Z [INFO] Uploading django-5.8.7.tar.gz
+2026-02-21T04:19:52Z [INFO] View at: https://pypi.org/project/django/5.8.7/
+2026-02-21T04:19:59Z [INFO] gh release create v5.8.7 --generate-notes
+2026-02-21T04:20:04Z [INFO] Release v5.8.7 created successfully

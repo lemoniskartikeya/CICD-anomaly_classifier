@@ -1,0 +1,18 @@
+2026-04-05T18:12:00Z [INFO] Runner: macos-13, Job: docker-publish
+2026-04-05T18:12:03Z [INFO] Checking out lodash/lodash@a0000090
+2026-04-05T18:12:05Z [INFO] Set up Docker Buildx
+2026-04-05T18:12:10Z [INFO] Login to GitHub Container Registry (ghcr.io)
+2026-04-05T18:12:16Z [INFO] Login Succeeded
+2026-04-05T18:12:21Z [INFO] docker build --tag ghcr.io/lodash/lodash:v2.4.3 .
+2026-04-05T18:12:29Z [INFO] Step 1/8 : FROM python:3.11-slim
+2026-04-05T18:12:32Z [INFO] Step 2/8 : WORKDIR /app
+2026-04-05T18:12:40Z [INFO] Step 3/8 : COPY requirements.txt .
+2026-04-05T18:12:44Z [INFO] Step 4/8 : RUN pip install -r requirements.txt
+2026-04-05T18:12:50Z [INFO] Step 5/8 : COPY . .
+2026-04-05T18:12:51Z [INFO] Step 6/8 : EXPOSE 8000
+2026-04-05T18:12:54Z [INFO] Step 7/8 : CMD ["gunicorn", "app:app"]
+2026-04-05T18:12:59Z [INFO] Step 8/8 : Successfully built a0000039
+2026-04-05T18:13:07Z [INFO] docker push ghcr.io/lodash/lodash:v2.4.3
+2026-04-05T18:13:10Z [INFO] The push refers to repository [ghcr.io/lodash/lodash]
+2026-04-05T18:13:16Z [INFO] Image pushed successfully
+2026-04-05T18:13:20Z [INFO] Job finished with status: success

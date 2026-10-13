@@ -1,0 +1,17 @@
+2026-06-08T12:29:00Z [INFO] Runner: macos-13, Job: build (Node 16.x)
+2026-06-08T12:29:02Z [INFO] Checking out scrapy/scrapy@a0000066
+2026-06-08T12:29:09Z [INFO] Set up Node.js 16.x
+2026-06-08T12:29:15Z [INFO] Cache hit for npm packages
+2026-06-08T12:29:21Z [INFO] npm ci
+2026-06-08T12:29:28Z [INFO] added 393 packages in 6s
+2026-06-08T12:29:33Z [INFO] npm run lint
+2026-06-08T12:29:34Z [INFO] eslint src/ --ext .js,.ts
+2026-06-08T12:29:38Z [INFO] ESLint: no warnings
+2026-06-08T12:29:45Z [INFO] npm run build
+2026-06-08T12:29:48Z [INFO] webpack compiled successfully in 2417ms
+2026-06-08T12:29:49Z [INFO] npm test
+2026-06-08T12:29:57Z [INFO] PASS src/__tests__/core.test.js
+2026-06-08T12:30:01Z [INFO] PASS src/__tests__/utils.test.js
+2026-06-08T12:30:03Z [INFO] Tests: 107 passed, 0 failed, 107 total
+2026-06-08T12:30:05Z [INFO] Snapshot summary: 3 obsolete snapshots
+2026-06-08T12:30:08Z [INFO] Done in 13s

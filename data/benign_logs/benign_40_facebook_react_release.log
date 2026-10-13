@@ -1,0 +1,14 @@
+2026-07-14T01:45:00Z [INFO] Runner: windows-2022, Job: release
+2026-07-14T01:45:07Z [INFO] Checking out facebook/react@a0000092 (tag: v3.8.9)
+2026-07-14T01:45:08Z [INFO] Set up Python 3.11
+2026-07-14T01:45:14Z [INFO] pip install build twine
+2026-07-14T01:45:21Z [INFO] python -m build
+2026-07-14T01:45:24Z [INFO] Successfully built dist/react-3.8.9.tar.gz
+2026-07-14T01:45:32Z [INFO] twine check dist/*
+2026-07-14T01:45:40Z [INFO] Checking dist/app-3.8.9.tar.gz: PASSED
+2026-07-14T01:45:44Z [INFO] twine upload dist/* --skip-existing
+2026-07-14T01:45:48Z [INFO] Uploading distributions to https://upload.pypi.org/legacy/
+2026-07-14T01:45:51Z [INFO] Uploading react-3.8.9.tar.gz
+2026-07-14T01:45:53Z [INFO] View at: https://pypi.org/project/react/3.8.9/
+2026-07-14T01:45:57Z [INFO] gh release create v3.8.9 --generate-notes
+2026-07-14T01:46:01Z [INFO] Release v3.8.9 created successfully

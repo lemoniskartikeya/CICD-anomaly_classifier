@@ -1,0 +1,17 @@
+2026-03-12T22:11:00Z [INFO] Runner: ubuntu-22.04, Job: build (Node 16.x)
+2026-03-12T22:11:06Z [INFO] Checking out aio-libs/aiohttp@a0000040
+2026-03-12T22:11:07Z [INFO] Set up Node.js 16.x
+2026-03-12T22:11:15Z [INFO] Cache hit for npm packages
+2026-03-12T22:11:18Z [INFO] npm ci
+2026-03-12T22:11:22Z [INFO] added 211 packages in 11s
+2026-03-12T22:11:29Z [INFO] npm run lint
+2026-03-12T22:11:30Z [INFO] eslint src/ --ext .js,.ts
+2026-03-12T22:11:32Z [INFO] ESLint: no warnings
+2026-03-12T22:11:34Z [INFO] npm run build
+2026-03-12T22:11:37Z [INFO] webpack compiled successfully in 3997ms
+2026-03-12T22:11:41Z [INFO] npm test
+2026-03-12T22:11:42Z [INFO] PASS src/__tests__/core.test.js
+2026-03-12T22:11:45Z [INFO] PASS src/__tests__/utils.test.js
+2026-03-12T22:11:50Z [INFO] Tests: 61 passed, 0 failed, 61 total
+2026-03-12T22:11:56Z [INFO] Snapshot summary: 2 obsolete snapshots
+2026-03-12T22:12:00Z [INFO] Done in 39s

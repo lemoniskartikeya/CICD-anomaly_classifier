@@ -1,0 +1,17 @@
+2026-08-22T17:02:00Z [INFO] Runner: windows-2022, Job: build (Node 18.x)
+2026-08-22T17:02:04Z [INFO] Checking out lodash/lodash@a000006d
+2026-08-22T17:02:09Z [INFO] Set up Node.js 18.x
+2026-08-22T17:02:13Z [INFO] Cache hit for npm packages
+2026-08-22T17:02:17Z [INFO] npm ci
+2026-08-22T17:02:24Z [INFO] added 450 packages in 13s
+2026-08-22T17:02:28Z [INFO] npm run lint
+2026-08-22T17:02:34Z [INFO] eslint src/ --ext .js,.ts
+2026-08-22T17:02:42Z [INFO] ESLint: no warnings
+2026-08-22T17:02:47Z [INFO] npm run build
+2026-08-22T17:02:53Z [INFO] webpack compiled successfully in 6703ms
+2026-08-22T17:03:00Z [INFO] npm test
+2026-08-22T17:03:04Z [INFO] PASS src/__tests__/core.test.js
+2026-08-22T17:03:06Z [INFO] PASS src/__tests__/utils.test.js
+2026-08-22T17:03:08Z [INFO] Tests: 67 passed, 0 failed, 67 total
+2026-08-22T17:03:14Z [INFO] Snapshot summary: 0 obsolete snapshots
+2026-08-22T17:03:21Z [INFO] Done in 13s

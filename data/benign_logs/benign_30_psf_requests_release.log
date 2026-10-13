@@ -1,0 +1,14 @@
+2026-02-03T12:08:00Z [INFO] Runner: macos-13, Job: release
+2026-02-03T12:08:07Z [INFO] Checking out psf/requests@a0000018 (tag: v1.8.6)
+2026-02-03T12:08:14Z [INFO] Set up Python 3.11
+2026-02-03T12:08:18Z [INFO] pip install build twine
+2026-02-03T12:08:25Z [INFO] python -m build
+2026-02-03T12:08:31Z [INFO] Successfully built dist/requests-1.8.6.tar.gz
+2026-02-03T12:08:32Z [INFO] twine check dist/*
+2026-02-03T12:08:35Z [INFO] Checking dist/app-1.8.6.tar.gz: PASSED
+2026-02-03T12:08:42Z [INFO] twine upload dist/* --skip-existing
+2026-02-03T12:08:43Z [INFO] Uploading distributions to https://upload.pypi.org/legacy/
+2026-02-03T12:08:50Z [INFO] Uploading requests-1.8.6.tar.gz
+2026-02-03T12:08:57Z [INFO] View at: https://pypi.org/project/requests/1.8.6/
+2026-02-03T12:09:05Z [INFO] gh release create v1.8.6 --generate-notes
+2026-02-03T12:09:12Z [INFO] Release v1.8.6 created successfully

@@ -1,0 +1,17 @@
+2026-07-22T10:39:00Z [INFO] Runner: windows-2022, Job: build (Node 20.x)
+2026-07-22T10:39:05Z [INFO] Checking out scrapy/scrapy@a000002d
+2026-07-22T10:39:11Z [INFO] Set up Node.js 20.x
+2026-07-22T10:39:19Z [INFO] Cache hit for npm packages
+2026-07-22T10:39:23Z [INFO] npm ci
+2026-07-22T10:39:29Z [INFO] added 320 packages in 9s
+2026-07-22T10:39:30Z [INFO] npm run lint
+2026-07-22T10:39:37Z [INFO] eslint src/ --ext .js,.ts
+2026-07-22T10:39:38Z [INFO] ESLint: no warnings
+2026-07-22T10:39:46Z [INFO] npm run build
+2026-07-22T10:39:51Z [INFO] webpack compiled successfully in 3515ms
+2026-07-22T10:39:54Z [INFO] npm test
+2026-07-22T10:39:55Z [INFO] PASS src/__tests__/core.test.js
+2026-07-22T10:40:02Z [INFO] PASS src/__tests__/utils.test.js
+2026-07-22T10:40:03Z [INFO] Tests: 63 passed, 0 failed, 63 total
+2026-07-22T10:40:11Z [INFO] Snapshot summary: 5 obsolete snapshots
+2026-07-22T10:40:17Z [INFO] Done in 34s

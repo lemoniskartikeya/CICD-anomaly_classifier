@@ -1,0 +1,18 @@
+2026-08-06T23:44:00Z [INFO] Runner: windows-2022, Job: docker-publish
+2026-08-06T23:44:07Z [INFO] Checking out fastapi/fastapi@a000006e
+2026-08-06T23:44:13Z [INFO] Set up Docker Buildx
+2026-08-06T23:44:18Z [INFO] Login to GitHub Container Registry (ghcr.io)
+2026-08-06T23:44:19Z [INFO] Login Succeeded
+2026-08-06T23:44:22Z [INFO] docker build --tag ghcr.io/fastapi/fastapi:v1.3.2 .
+2026-08-06T23:44:23Z [INFO] Step 1/8 : FROM python:3.11-slim
+2026-08-06T23:44:31Z [INFO] Step 2/8 : WORKDIR /app
+2026-08-06T23:44:36Z [INFO] Step 3/8 : COPY requirements.txt .
+2026-08-06T23:44:43Z [INFO] Step 4/8 : RUN pip install -r requirements.txt
+2026-08-06T23:44:45Z [INFO] Step 5/8 : COPY . .
+2026-08-06T23:44:51Z [INFO] Step 6/8 : EXPOSE 8000
+2026-08-06T23:44:52Z [INFO] Step 7/8 : CMD ["gunicorn", "app:app"]
+2026-08-06T23:44:53Z [INFO] Step 8/8 : Successfully built a000002c
+2026-08-06T23:45:00Z [INFO] docker push ghcr.io/fastapi/fastapi:v1.3.2
+2026-08-06T23:45:04Z [INFO] The push refers to repository [ghcr.io/fastapi/fastapi]
+2026-08-06T23:45:06Z [INFO] Image pushed successfully
+2026-08-06T23:45:12Z [INFO] Job finished with status: success

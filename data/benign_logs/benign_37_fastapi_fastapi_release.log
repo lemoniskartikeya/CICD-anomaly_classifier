@@ -1,0 +1,14 @@
+2026-01-19T09:15:00Z [INFO] Runner: ubuntu-20.04, Job: release
+2026-01-19T09:15:04Z [INFO] Checking out fastapi/fastapi@a00000a8 (tag: v5.11.8)
+2026-01-19T09:15:10Z [INFO] Set up Python 3.11
+2026-01-19T09:15:14Z [INFO] pip install build twine
+2026-01-19T09:15:17Z [INFO] python -m build
+2026-01-19T09:15:22Z [INFO] Successfully built dist/fastapi-5.11.8.tar.gz
+2026-01-19T09:15:24Z [INFO] twine check dist/*
+2026-01-19T09:15:32Z [INFO] Checking dist/app-5.11.8.tar.gz: PASSED
+2026-01-19T09:15:37Z [INFO] twine upload dist/* --skip-existing
+2026-01-19T09:15:39Z [INFO] Uploading distributions to https://upload.pypi.org/legacy/
+2026-01-19T09:15:47Z [INFO] Uploading fastapi-5.11.8.tar.gz
+2026-01-19T09:15:49Z [INFO] View at: https://pypi.org/project/fastapi/5.11.8/
+2026-01-19T09:15:52Z [INFO] gh release create v5.11.8 --generate-notes
+2026-01-19T09:15:53Z [INFO] Release v5.11.8 created successfully
